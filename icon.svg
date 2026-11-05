@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#528FF4"/><stop offset=".52" stop-color="#2F6FDD"/><stop offset="1" stop-color="#1E4EAA"/>
+  </linearGradient><filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="5" stdDeviation="4.5" flood-color="#0C224E" flood-opacity=".42"/>
+  </filter><clipPath id="clip-card"><rect x="44" y="40" width="168" height="176" rx="30"/></clipPath></defs>
+  <rect x="0" y="0" width="256" height="256" rx="58" fill="url(#tile)"/>
+  <rect x="44" y="40" width="168" height="176" rx="30" fill="rgb(255,255,255)" filter="url(#soft)"/>
+  <g clip-path="url(#clip-card)"><rect x="44" y="40" width="38" height="176" fill="rgb(223,74,56)"/></g>
+  <rect x="104" y="82" width="78" height="16" rx="8" fill="rgb(214,222,234)"/>
+  <rect x="104" y="120" width="56" height="16" rx="8" fill="rgb(231,237,245)"/>
+  <rect x="104" y="158" width="66" height="16" rx="8" fill="rgb(231,237,245)"/>
+</svg>

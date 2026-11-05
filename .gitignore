@@ -1,0 +1,14 @@
+# 本机会话与记忆（只对本机有意义，不入库）
+.workbuddy/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 运行时产物（悬浮窗守护进程日志等）
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
